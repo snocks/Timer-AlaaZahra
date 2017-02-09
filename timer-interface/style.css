@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background: #000e26;
+  font-family: courier;
+  font-weight: 100;
+}
+
+h1{
+  color: #ffec7a;
+  font-weight: bold;
+  font-size: 70px;
+  margin: 70px 0px 20px;
+}
+label{
+  color: #ffec7a;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+
+#clockdiv{
+    font-family: courier;
+    color: #b30b54;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #f892be;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #fff3a8;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: #000e26;
+    border: 2px solid #ffec7a;
+}
+
+.button1:hover {
+    background-color: #b30b54;
+    color: white;
+}
