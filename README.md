@@ -1,4 +1,4 @@
-# Pomodoro timer
+# [Pomodoro timer](https://snocks.github.io/Timer-AlaaZahra/)
 
 
 ## What:
@@ -20,6 +20,7 @@ We did five steps as following:
  - when the user click *reset* button, timer should stop count down completly. 
  
 **2.Sketch the design:** 
+![alt text](https://scontent.fjrs2-1.fna.fbcdn.net/v/t34.0-12/16651983_750647628430949_141733741_n.gif?oh=17e2af355f0c86dde5bdae34783625f6&oe=589E923B)
 
 **3.Test stories:**
  - test all the functions are exist(the main function and all the methods).
