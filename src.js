@@ -13,7 +13,7 @@ function program() {
 		  if(duration < 0 ){
        alert("Enter valid number");
       }else{
-				  diff =  duration - (((Date.now() - start) / 1000) | 0);
+	  diff =  duration - (((Date.now() - start) / 1000) | 0);
           minutes = (diff / 60) | 0;
           seconds = (diff % 60) | 0;
           minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -30,8 +30,8 @@ function program() {
 			clearTimeout(setTime);
 			minutes = "00";
 			seconds = "00";
-      document.getElementById("minutes").innerHTML = minutes;
-      document.getElementById("seconds").innerHTML = seconds;
+    	  document.getElementById("minutes").innerHTML = minutes;
+          document.getElementById("seconds").innerHTML = seconds;
 		},
     paus : function(){
 			if(timerStatus == 1){
