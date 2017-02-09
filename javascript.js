@@ -20,6 +20,7 @@ function program() {
           seconds = seconds < 10 ? "0" + seconds : seconds;
           document.getElementById("minutes").innerHTML = minutes;
           document.getElementById("seconds").innerHTML = seconds;
+	  document.getElementById("strBtn").disabled = true;
           }
           if (diff <= 0) {
                 clearTimeout(setTime);
@@ -32,6 +33,7 @@ function program() {
 			seconds = "00";
     	  document.getElementById("minutes").innerHTML = minutes;
           document.getElementById("seconds").innerHTML = seconds;
+	  document.getElementById("strBtn").disabled = false;
 		},
     paus : function(){
 			if(timerStatus == 1){
