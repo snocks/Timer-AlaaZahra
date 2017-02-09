@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pomodoro timer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Pomodoro Timer</h1>
+<div id="clockdiv">
+  <div>
+    <span id="minutes">00</span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span id="seconds">00</span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div><br/><br/>
+<div>
+	<label class="smalltext">Insert Minutes</label><br/><br/>
+  <input type="text" id="timeDuration" value="0">
+</div><br/>
+	<div>
+			<button class="button button1" style="font-family: courier; font-weight: bold;"
+			onclick="program().startTimer()">Start</button>
+			<button class="button button1" style="font-family: courier; font-weight: bold;" >Pause</button>
+			<button class="button button1" style="font-family: courier; font-weight: bold;"
+			onclick="program().reset()">Reset</button>
+	</div>
+	<script src="src.js"></script>
+</body>
