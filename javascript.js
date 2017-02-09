@@ -10,7 +10,7 @@ function program() {
 	var programInterface = {
 		startTimer : function(){
 
-		  if(duration <= 0){
+		  if(duration < 0){
        alert("Enter valid number");
       }else{
 	  diff =  duration - (((Date.now() - start) / 1000) | 0);
