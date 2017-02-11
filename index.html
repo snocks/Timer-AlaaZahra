@@ -5,32 +5,32 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>Pomodoro Timer</h1>
-<div id="clockdiv">
-   <div>
-      <span id="minutes">00</span>
-      <div class="smalltext">Minutes</div>
-   </div>
-   <div>
-      <span id="seconds">00</span>
-      <div class="smalltext">Seconds</div>
-   </div>
-   </div><br/><br/>
-   <div>
-	<label class="smalltext">Insert Minutes</label><br/><br/>
-	<input type="text" id="timeDuration" value="5">
-   </div><br/>
-   <div>
-	<button id ="strBtn" class="button button1" style="font-family: courier; font-weight: bold;"
-	onclick="program().startTimer()">Start
-	</button>
-	<button class="button button1" style="font-family: courier; font-weight: bold;"
-	onclick="program().paus()" >Pause/Play
-	</button>
-	<button class="button button1" style="font-family: courier; font-weight: bold;"
-	onclick="program().reset()">Reset
-	</button>
-    </div>
-<script type="text/javascript" src="javascript.js"></script>
+	<h1>Pomodoro Timer</h1>
+	<div id="clockdiv">
+			<div>
+				<span id="minutes">00</span>
+				<div class="smalltext">Minutes</div>
+			</div>
+			<div>
+				<span id="seconds">00</span>
+				<div class="smalltext">Seconds</div>
+			</div>
+			</div><br/><br/>
+		<div>
+			<label class="smalltext">Insert Minutes</label><br/><br/>
+			<input type="text" id="timeDuration" value="5">
+		</div><br/>
+		<div>
+			<button id ="strBtn" class="button button1" style="font-family: courier; font-weight: bold;"
+				onclick="program().startTimer()">Start
+			</button>
+			<button class="button button1" style="font-family: courier; font-weight: bold;"
+				onclick="program().paus()" >Pause/Play
+			</button>
+			<button class="button button1" style="font-family: courier; font-weight: bold;"
+				onclick="program().reset()">Reset
+			</button>
+	</div>
+	<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
